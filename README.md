@@ -1,31 +1,34 @@
 # Cobblemon Setup - Minecraft
 
-# Please actually read this entire file like a literate person and practice some critical thinking. Thank you.
+# Please read this entire file like a literate person and practice some critical thinking. Thank you.
 Minecraft setup for the [Cobblemon mod](https://modrinth.com/mod/cobblemon). If you don't have a launcher, I've posted a link for one on Discord.
 
 # Minecraft setup
 
 1. Download Minecraft ***1.21.1 Fabric*** (***not*** vanilla, or any other version). I've included this in the discord message as well.
+2. If you don't wanna use launcher in the discord message, look up how to setup Fabric for `1.21.1`, its a straightforward process.
 
 # Install Mods
 
-1. Download as a ZIP and then unzip
+1. Download as a ZIP and then unzip.
 
 ![Download as ZIP](assets/download-as-zip.png)
 
 2. Drag all the mods in `mods/` folder to your Minecraft mods folder, usually located at
-    `C:\Users\name\AppData\Roaming\.minecraft\mods`
+    `C:/Users/name/AppData/Roaming/.minecraft/mods`
 
     Your `.minecraft/mods/` folder should look like this:
 
 ![Installed mods folder](assets/installed-mods.png)
 
-3. Download Cobblemon mod separately, GitHub enforces a limit of 100MB per file, so cannot push it here\
+3. Download latest version of Cobblemon mod separately, GitHub enforces a limit of 100MB per file, so cannot push it here\
 https://modrinth.com/mod/cobblemon/versions?g=1.21.1&l=fabric \
 This link should directly open the correct version; v1.21.1 and Fabric mod loader. ***Put the downloaded .jar file into your minecraft mods folder.***
 
+
 # Post Install Check
 
+### Reminder to download Cobblemon as well.
 1. Start the game, it should start normally without crashing.
 
 2. To test if the mod works, create a new single player world with Creative mode and cheats enabled. Pressing `M` should open the starter pokemon selection menu. Commands like `/spawnpokemon`, `/spawnallpokemon` should be available (unless you forgot to enable cheats on world creation).
@@ -34,7 +37,7 @@ This link should directly open the correct version; v1.21.1 and Fabric mod loade
 
 4. Connect to the server, IP is in the discord message. If you cannot connect on the first try, retry a few times.
 
-# Mods list
+# Mods category
 
 ## Mandatory
 - architectury
