@@ -14,6 +14,8 @@ Minecraft setup for the [Cobblemon mod](https://modrinth.com/mod/cobblemon). If 
 
 ![Download as ZIP](assets/download-as-zip.png)
 
+### Ignore the `assets/` folder.
+
 2. Drag all the mods in `mods/` folder to your Minecraft mods folder, usually located at
     `C:/Users/name/AppData/Roaming/.minecraft/mods`
 
@@ -25,10 +27,22 @@ Minecraft setup for the [Cobblemon mod](https://modrinth.com/mod/cobblemon). If 
 https://modrinth.com/mod/cobblemon/versions?g=1.21.1&l=fabric \
 This link should directly open the correct version; v1.21.1 and Fabric mod loader. ***Put the downloaded .jar file into your minecraft mods folder.***
 
+# Install Resource Pack
+
+1. Drag and drop the `resourcepacks/MysticMons_v3.2.1.zip` file in the `.minecraft/resourcepacks/` folder.
+
+2. DO NOT UNZIP THIS FILE, keep it a zip.
+
+3. After loading into the game, open the Resource Packs screen from the Options menu.
+    You should see the MysticMons resource pack on the left, move it to the right to enable it and exit the screen.
+    Pokemons like Dialga, Xerneas, Yveltal, etc. should be modelled.
+
+Refer https://modrinth.com/datapack/mysticmons/ to see which pokemon are modelled.
 
 # Post Install Check
 
 ### Reminder to download Cobblemon as well.
+### Reminder to download and move resource pack as well.
 1. Start the game, it should start normally without crashing.
 
 2. To test if the mod works, create a new single player world with Creative mode and cheats enabled. Pressing `M` should open the starter pokemon selection menu. Commands like `/spawnpokemon`, `/spawnallpokemon` should be available (unless you forgot to enable cheats on world creation).
