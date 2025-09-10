@@ -1,6 +1,6 @@
 # Cobblemon Setup - Minecraft
 
-# Please read this entire file like a literate person and practice some critical thinking. Thank you.
+# Read the entire file once, and then start following the steps
 Minecraft setup for the [Cobblemon mod](https://modrinth.com/mod/cobblemon). If you don't have a launcher, I've posted a link for one on Discord.
 
 # Minecraft setup
@@ -12,32 +12,26 @@ Minecraft setup for the [Cobblemon mod](https://modrinth.com/mod/cobblemon). If 
 
 1. Download as a ZIP and then unzip.
 
-![Download as ZIP](assets/download-as-zip.png)
+![Download as ZIP](images/download-as-zip.png)
 
-### Ignore the `assets/` folder.
+### Ignore the `images/` folder.
 
-2. Drag all the mods in `mods/` folder to your Minecraft mods folder, usually located at
+2. Drag all the mods in this downloaded `mods/` folder to your Minecraft mods folder, usually located at
     `C:/Users/name/AppData/Roaming/.minecraft/mods`
 
-    Your `.minecraft/mods/` folder should look like this:
-
-![Installed mods folder](assets/installed-mods.png)
-
-3. Download latest version of Cobblemon mod separately, GitHub enforces a limit of 100MB per file, so cannot push it here\
+3. Download latest version (v1.6.1) of Cobblemon mod separately, GitHub enforces a limit of 100MB per file, so cannot push it here\
 https://modrinth.com/mod/cobblemon/versions?g=1.21.1&l=fabric \
-This link should directly open the correct version; v1.21.1 and Fabric mod loader. ***Put the downloaded .jar file into your minecraft mods folder.***
+This link should directly open the correct version; v1.21.1 and Fabric mod loader. ***Put the downloaded .jar file into your minecraft mods folder.*** 
 
-# Install Resource Pack
+The list of mods included are in a later section of this document.
 
-1. Drag and drop the `resourcepacks/MysticMons_v3.2.1.zip` file in the `.minecraft/resourcepacks/` folder.
+# Install Resource Packs
 
-2. DO NOT UNZIP THIS FILE, keep it a zip.
+1. Drag and drop all `.zip` files in the downloaded `resourcepacks/` folder, to the `.minecraft/resourcepacks/` folder (your game folder).
 
-3. After loading into the game, open the Resource Packs screen from the Options menu.
-    You should see the MysticMons resource pack on the left, move it to the right to enable it and exit the screen.
-    Pokemons like Dialga, Xerneas, Yveltal, etc. should be modelled.
+2. DO NOT UNZIP THESE FILES, keep them a zip.
 
-Refer https://modrinth.com/datapack/mysticmons/ to see which pokemon are modelled.
+3. After loading into the game, open the Resource Packs screen from the Options menu. You should see the resource packs on the left side, click on their icons to move them to the right to enable them, and exit the screen.
 
 # Post Install Check
 
@@ -45,18 +39,28 @@ Refer https://modrinth.com/datapack/mysticmons/ to see which pokemon are modelle
 ### Reminder to download and move resource pack as well.
 1. Start the game, it should start normally without crashing.
 
-2. To test if the mod works, create a new single player world with Creative mode and cheats enabled. Pressing `M` should open the starter pokemon selection menu. Commands like `/spawnpokemon`, `/spawnallpokemon` should be available (unless you forgot to enable cheats on world creation).
+2. To test if the mod works, either try joining the server, or create a new single player world with Creative mode and cheats enabled. Pressing `M` should open the starter pokemon selection menu. Commands like `/spawnpokemon`, `/spawnallpokemon` should be available (unless you forgot to enable cheats on world creation).
 
 3. Change keybinds in `Options > Controls > Keybinds` menu. Video settings are in `Options > Video Settings`, you can adjust resolution, set full screen, etc.
 
 4. Connect to the server, IP is in the discord message. If you cannot connect on the first try, retry a few times.
 
-# Mods category
+# Mods list
 
 ## Mandatory
 - architectury
 - Cobblemon
 - fabric-api
+- CobbleDollars
+- cobblemon_knowlogy
+- Cobblemon_MegaShowdown
+- cobblemonriding
+- cobblenav
+- entity_model_features
+- entity_texture_features
+- MoreCobblemonTweaks
+- SimpleTMs
+- sophisticatedbackpacks
 
 ## Performance (Recommended)
 - c2me
@@ -71,7 +75,17 @@ Refer https://modrinth.com/datapack/mysticmons/ to see which pokemon are modelle
 - sodium-extra
 - sodium
 
-## Miscellaneous QoL
+## QoL
 - BetterF3
 - continuity
 - modmenu
+- NaturesCompass
+- polytone
+
+# Resource Packs list
+
+## Mandatory
+- CobbledGacha
+
+## QoL
+- Fullbright-UB
