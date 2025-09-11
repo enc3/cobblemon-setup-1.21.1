@@ -49,18 +49,27 @@ The list of mods included are in a later section of this document.
 
 ## Mandatory
 - architectury
+- athena
+- chipped
 - Cobblemon
-- fabric-api
 - CobbleDollars
+- CobbleFurnies
 - cobblemon_knowlogy
 - Cobblemon_MegaShowdown
 - cobblemonriding
 - cobblenav
 - entity_model_features
 - entity_texture_features
+- fabric-api
+- gachamachine
+- geckolib
+- LegendaryMonuments
 - MoreCobblemonTweaks
+- resourcefullib
+- ScalableLux
 - SimpleTMs
 - sophisticatedbackpacks
+- tsfitemcore
 
 ## Performance (Recommended)
 - c2me
@@ -79,13 +88,14 @@ The list of mods included are in a later section of this document.
 - BetterF3
 - continuity
 - modmenu
-- NaturesCompass
 - polytone
+- Xaeros_Minimap
 
 # Resource Packs list
 
 ## Mandatory
 - CobbledGacha
+- MysticMons (disable this if pokemon like Dialga, Palkia, Giratina, etc have missing textures)
 
 ## QoL
 - Fullbright-UB
