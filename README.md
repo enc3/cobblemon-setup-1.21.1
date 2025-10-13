@@ -14,7 +14,7 @@ Minecraft setup for the [Cobblemon mod](https://modrinth.com/mod/cobblemon). If 
 
 ![Download as ZIP](images/download-as-zip.png)
 
-### Ignore the `images/` folder.
+### Ignore the `images/`, `server/`, and `datapacks/` folders.
 
 2. Drag all the mods in this downloaded `mods/` folder to your Minecraft mods folder, usually located at
     `C:/Users/name/AppData/Roaming/.minecraft/mods`
@@ -36,7 +36,7 @@ The list of mods included are in a later section of this document.
 # Post Install Check
 
 ### Reminder to download Cobblemon as well.
-### Reminder to download and move resource pack as well.
+### Reminder to download and move resource packs as well.
 1. Start the game, it should start normally without crashing.
 
 2. To test if the mod works, either try joining the server, or create a new single player world with Creative mode and cheats enabled. Pressing `M` should open the starter pokemon selection menu. Commands like `/spawnpokemon`, `/spawnallpokemon` should be available (unless you forgot to enable cheats on world creation).
